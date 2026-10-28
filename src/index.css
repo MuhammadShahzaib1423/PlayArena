@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ivory text-slate-800 antialiased;
+}
+
+::selection {
+  background: #c6a15b;
+  color: #ffffff;
+}
